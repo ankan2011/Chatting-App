@@ -1,3 +1,4 @@
+import 'package:chat_app/pages/home.dart';
 import 'package:chat_app/pages/onbording.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: Onbording(),
+      home: Home(),
     );
   }
 }

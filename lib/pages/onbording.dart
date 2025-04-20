@@ -39,7 +39,8 @@ class _OnbordingState extends State<Onbording> {
                     child: Text(
                       textAlign: TextAlign.center,
                       "Connect people around the world for free",
-                      style: TextStyle(color: Colors.black54,fontSize: 17,fontWeight: FontWeight.w500),),
+                      style: TextStyle(color: Colors.black54,fontSize: 17,fontWeight: FontWeight.w500)
+                      ,),
                   ),
         
                   SizedBox(height: 40,),
